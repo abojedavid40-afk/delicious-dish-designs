@@ -10,6 +10,10 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        flame:
+          "rounded-full bg-flame text-ink shadow-none hover:bg-amber focus-visible:ring-flame",
+        glass:
+          "rounded-full border border-line bg-glass/70 text-foreground shadow-none backdrop-blur-xl hover:bg-glass focus-visible:ring-jade",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
